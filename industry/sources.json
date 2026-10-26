@@ -404,7 +404,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-eugene-yan",
@@ -426,7 +426,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-ben-s-bites",
@@ -448,7 +448,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-official-002",
@@ -469,7 +469,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-official-016",
@@ -595,7 +595,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-official-038",
@@ -616,7 +616,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-author-001",
@@ -658,7 +658,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-blog-002",
@@ -679,7 +679,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-blog-003",
@@ -721,7 +721,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-blog-005",
@@ -1645,7 +1645,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-032",
@@ -1708,7 +1708,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-035",
@@ -1813,7 +1813,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-040",
@@ -1876,7 +1876,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-043",
@@ -1981,7 +1981,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-048",
@@ -2044,7 +2044,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-051",
@@ -2086,7 +2086,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-053",
@@ -2128,7 +2128,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-055",
@@ -2149,7 +2149,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-056",
@@ -2275,7 +2275,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-062",
@@ -2296,7 +2296,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-063",
@@ -2422,7 +2422,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-069",
@@ -2443,7 +2443,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-070",
@@ -2506,7 +2506,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-073",
@@ -2527,7 +2527,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-074",
@@ -2611,7 +2611,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-078",
@@ -2632,7 +2632,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-079",
@@ -2695,7 +2695,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-082",
@@ -3010,7 +3010,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-097",
@@ -3094,7 +3094,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-101",
@@ -3367,7 +3367,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-114",
@@ -3409,7 +3409,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-116",
@@ -3472,7 +3472,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-119",
@@ -3556,7 +3556,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-123",
@@ -3682,7 +3682,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-129",
@@ -3808,7 +3808,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-135",
@@ -3976,7 +3976,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-143",
@@ -4123,7 +4123,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-150",
@@ -4312,7 +4312,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rss-chinese-159",
@@ -4900,7 +4900,7 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": true
+      "enabled": false
     }
   ]
 }

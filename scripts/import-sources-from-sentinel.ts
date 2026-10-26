@@ -96,7 +96,7 @@ for (const af of authorFeeds) {
     tags: ["个人", "深度实践"],
     site_fulltext: false,
     syndicate_fulltext: false,
-    enabled: af.enabled ?? true,
+    enabled: false,
   });
 }
 
@@ -140,8 +140,8 @@ for (const c of catalog) {
     tags,
     site_fulltext: false,
     syndicate_fulltext: false,
-    // Focus sources are enabled immediately; on_demand sources are seeded but disabled so they don't flood on day 1
-    enabled: isFocus,
+    // All newly imported sources disabled by default for smooth cold-start
+    enabled: false,
   });
 }
 
