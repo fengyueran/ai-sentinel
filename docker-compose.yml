@@ -3,7 +3,6 @@
 name: aihot
 
 x-app: &app
-  build: .
   image: aihot-app
   restart: unless-stopped
 
@@ -42,6 +41,7 @@ services:
   # Applies the database migrations and seeds the demo sources, then exits.
   setup:
     <<: *backend
+    build: .
     restart: "no"
     command: ["sh", "-c", "node scripts/migrate.ts && node scripts/seed.ts"]
 
