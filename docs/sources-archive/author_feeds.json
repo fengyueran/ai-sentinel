@@ -1,0 +1,67 @@
+{
+  "feeds": [
+    {
+      "id": "author-x-ai-builders-list",
+      "name": "AI Builders & Leaders (X List)",
+      "channel": "rss",
+      "url": "http://localhost:1200/twitter/list/2089603757386650097?exclude_replies=0",
+      "priority": 98,
+      "enabled": true,
+      "notes": "本地 RSSHub 聚合订阅：通过 /twitter/list/:id 订阅包含所有 AI 核心作者的 X List（包括 @thsottiaux @sama @elonmusk @karpathy @bcherny @dotey 等），支持抓取回复与一手动态"
+    },
+    {
+      "id": "author-boris-blog",
+      "name": "Boris Cherny (Blog)",
+      "channel": "atom",
+      "url": "https://borischerny.com/feed",
+      "priority": 96,
+      "enabled": true,
+      "notes": "博客 Atom 独立源"
+    },
+    {
+      "id": "author-simon-willison",
+      "name": "Simon Willison",
+      "channel": "atom",
+      "url": "https://simonwillison.net/atom/everything/",
+      "priority": 97,
+      "enabled": true,
+      "notes": "博客 Atom 独立源"
+    },
+    {
+      "id": "author-swyx-latent-space",
+      "name": "swyx / Latent Space",
+      "channel": "rss",
+      "url": "https://www.latent.space/feed",
+      "priority": 96,
+      "enabled": true,
+      "notes": "Newsletter + 播客 RSS 独立源"
+    },
+    {
+      "id": "author-eugene-yan",
+      "name": "Eugene Yan",
+      "channel": "rss",
+      "url": "https://eugeneyan.com/rss/",
+      "priority": 94,
+      "enabled": true,
+      "notes": "ML 工程博客 RSS 独立源"
+    },
+    {
+      "id": "author-bens-bites",
+      "name": "Ben's Bites",
+      "channel": "rss",
+      "url": "https://www.bensbites.com/feed",
+      "priority": 95,
+      "enabled": true,
+      "notes": "Newsletter RSS 独立源"
+    },
+    {
+      "id": "author-lijigang",
+      "name": "李继刚",
+      "channel": "manual",
+      "url": "",
+      "priority": 90,
+      "enabled": false,
+      "notes": "主要在即刻/微信，暂无稳定 RSS"
+    }
+  ]
+}
