@@ -32,7 +32,7 @@ test("a short laptop window keeps several outline entries and can reach the last
       await page.close();
     }
   } finally {
-    await browser.close();
+    await browser?.close();
     await web?.stop();
   }
 });
@@ -43,9 +43,11 @@ test("outline keyboard scrolling stays inside its boundary in WebKit", async () 
   const item = itemDetail({ id: "outline-keys", title: "键盘目录检查", outline,
     body: { zh: outline.map(o => `<h2 id="${o.id}">${o.text}</h2><p>${"固定正文。".repeat(100)}</p>`).join(""), original: null, zhKind: "original", complete: true },
   });
-  const web = await startWebServer(fakeApi(url => url.pathname === "/api/site/items/outline-keys" ? item : undefined));
-  const browser = await webkit.launch();
+  let web: WebServer | undefined;
+  let browser;
   try {
+    web = await startWebServer(fakeApi(url => url.pathname === "/api/site/items/outline-keys" ? item : undefined));
+    browser = await webkit.launch();
     const page = await browser.newPage({ viewport: { width: 1366, height: 768 }, reducedMotion: "reduce" });
     await visit(page, web.origin + "/items/outline-keys");
     const nav = page.getByRole("navigation", { name: "本文目录" });
@@ -68,7 +70,7 @@ test("outline keyboard scrolling stays inside its boundary in WebKit", async () 
     await page.keyboard.press("PageDown");
     await expect.poll(() => nav.evaluate(n => n.scrollTop)).toBeGreaterThan(0);
   } finally {
-    await browser.close();
-    await web.stop();
+    await browser?.close();
+    await web?.stop();
   }
 });

@@ -38,7 +38,7 @@ const credentialsDir = env.AIHOT_CREDENTIALS_DIR || DEPLOYMENT.credentialsDir;
 
 export const config = {
   databaseUrl: str("DATABASE_URL", "postgres://127.0.0.1:5432/aihot"),
-  apiPort: int("API_PORT", 3001),
+  apiPort: int("API_PORT", 3871),
   // Every generated absolute link uses this address, whatever Host a request arrives with.
   siteUrl: str("SITE_URL", SITE.defaultUrl).replace(/\/+$/, ""),
   egressProxyUrl: env.EGRESS_PROXY_URL || null,

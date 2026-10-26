@@ -12,7 +12,7 @@ import { SERVER_MODULES } from "@aihot/site/modules/server";
 
 const args = process.argv.slice(2);
 const full = args.includes("--full");
-const url = new URL(args.find((a) => !a.startsWith("--")) ?? "http://127.0.0.1:3001/api/mcp");
+const url = new URL(args.find((a) => !a.startsWith("--")) ?? "http://127.0.0.1:3871/api/mcp");
 /** The site's modules' tools, after the engine's. */
 const moduleTools = SERVER_MODULES.flatMap((m) => m.agent?.abilities ?? []).map((a) => ({
   name: mcpToolName(a.mcp.tool),
