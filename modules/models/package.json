@@ -1,0 +1,20 @@
+{
+  "name": "@aihot/models",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./module.ts",
+    "./server": "./server.ts",
+    "./web": "./web.tsx",
+    "./seeds": "./seeds.ts",
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@aihot/contracts": "*",
+    "@aihot/backend": "*",
+    "@aihot/site": "*",
+    "@aihot/api": "*",
+    "highs": "1.15.3",
+    "hyparquet": "1.31.1"
+  }
+}

@@ -399,3 +399,5 @@ export interface AdminSelectBenchCases {
   rows: Array<{ case_id: string; title: string; stratum: string | null; gold: "select" | "reject" | "either"; by_model: Record<string, AdminSelectBenchDecision> }>;
   strata: Array<{ stratum: string | null; n: number }>;
 }
+
+export type { AdminMonitorEventPost, AdminMonitorEvent, AdminMonitorEvents, AdminMonitorPost, AdminMonitorPosts } from "./monitor.ts";

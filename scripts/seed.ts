@@ -37,4 +37,13 @@ for (const s of sources) {
   added += inserted.length;
 }
 console.log(`sources: ${added} added, ${sources.length - added} already there`);
+try {
+  const { importModelDirectory, importOfficialPrices } = await import("@aihot/models/seeds" as string);
+  const { models, aliases, calibrations } = await importModelDirectory();
+  console.log(`leaderboard directory: ${models} models, ${aliases} names, ${calibrations} calibrations added`);
+  const { written } = await importOfficialPrices();
+  console.log(`leaderboard prices: ${written} prices added`);
+} catch (e: any) {
+  if (e?.code !== "ERR_MODULE_NOT_FOUND") console.warn("leaderboard seed note:", e?.message);
+}
 await closeDb();
