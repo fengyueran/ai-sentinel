@@ -2,6 +2,29 @@
   "$comment": "AI Sentinel 精选信源库（融合原项目 1,042 项来源库与 AIHOT 官方示范源）。enabled=true 为核心首批抓取源，enabled=false 可在后台一键启用。",
   "sources": [
     {
+      "id": "rss-x-ai-leaders",
+      "name": "X: AI Leaders & Builders",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "http://192.168.30.35:1200/twitter/list/2089603757386650097?code=6bf1ea7c6856c51b9c54623bb35c631c",
+        "_aihot": {
+          "initialBackfillLimit": 20
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "tags": [
+        "个人",
+        "官方",
+        "深度实践"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
       "id": "rss-openai-news",
       "name": "OpenAI News",
       "kind": "rss",
@@ -15,9 +38,7 @@
       "owner_entity_id": "openai",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -36,9 +57,7 @@
       "owner_entity_id": "google",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -57,10 +76,7 @@
       "owner_entity_id": "google",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方",
-        "研究"
-      ],
+      "tags": ["官方", "研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -79,10 +95,7 @@
       "owner_entity_id": "hugging-face",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方",
-        "开源"
-      ],
+      "tags": ["官方", "开源"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -101,10 +114,7 @@
       "owner_entity_id": "microsoft",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方",
-        "研究"
-      ],
+      "tags": ["官方", "研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -123,9 +133,7 @@
       "owner_entity_id": "nvidia",
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -144,10 +152,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方",
-        "教程"
-      ],
+      "tags": ["官方", "教程"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -166,9 +171,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -187,9 +190,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -208,9 +209,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -229,9 +228,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 60,
-      "tags": [
-        "媒体"
-      ],
+      "tags": ["媒体"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -250,9 +247,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 60,
-      "tags": [
-        "媒体"
-      ],
+      "tags": ["媒体"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -271,9 +266,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 60,
-      "tags": [
-        "媒体"
-      ],
+      "tags": ["媒体"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -292,9 +285,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "媒体"
-      ],
+      "tags": ["媒体"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -313,9 +304,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 60,
-      "tags": [
-        "媒体"
-      ],
+      "tags": ["媒体"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -334,9 +323,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -355,10 +342,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人",
-        "周刊"
-      ],
+      "tags": ["个人", "周刊"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -377,9 +361,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": true
@@ -398,10 +380,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人",
-        "深度实践"
-      ],
+      "tags": ["个人", "深度实践"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -420,10 +399,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人",
-        "深度实践"
-      ],
+      "tags": ["个人", "深度实践"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -442,10 +418,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人",
-        "深度实践"
-      ],
+      "tags": ["个人", "深度实践"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -464,12 +437,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-official-016",
@@ -485,12 +456,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-official-032",
@@ -506,12 +475,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-official-034",
@@ -527,9 +494,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -548,9 +513,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -569,9 +532,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -590,9 +551,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -611,9 +570,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -632,12 +589,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-author-003",
@@ -653,9 +608,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -674,12 +627,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-blog-003",
@@ -695,12 +646,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-blog-004",
@@ -716,12 +665,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-blog-005",
@@ -737,9 +684,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -758,12 +703,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-blog-008",
@@ -779,9 +722,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -800,9 +741,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -821,9 +760,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -842,9 +779,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -863,9 +798,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -884,9 +817,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -905,9 +836,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -926,9 +855,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -947,9 +874,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -968,9 +893,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -989,9 +912,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1010,12 +931,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "rss-chinese-002",
@@ -1031,9 +950,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1052,9 +969,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1073,9 +988,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1094,9 +1007,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1115,9 +1026,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1136,9 +1045,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1157,9 +1064,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1178,9 +1083,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1199,9 +1102,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1220,9 +1121,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1241,9 +1140,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1262,9 +1159,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1283,9 +1178,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1304,9 +1197,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1325,9 +1216,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1346,9 +1235,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1367,9 +1254,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1388,9 +1273,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1409,9 +1292,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1430,9 +1311,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1451,9 +1330,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1472,9 +1349,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1493,9 +1368,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1514,9 +1387,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1535,9 +1406,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1556,9 +1425,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1577,9 +1444,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1598,9 +1463,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1619,9 +1482,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1640,9 +1501,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1661,9 +1520,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1682,9 +1539,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1703,9 +1558,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1724,9 +1577,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1745,9 +1596,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1766,9 +1615,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1787,9 +1634,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1808,9 +1653,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1829,9 +1672,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1850,9 +1691,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1871,9 +1710,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1892,9 +1729,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1913,9 +1748,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1934,9 +1767,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1955,9 +1786,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1976,9 +1805,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -1997,9 +1824,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2018,9 +1843,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2039,9 +1862,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2060,9 +1881,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2081,9 +1900,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2102,9 +1919,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2123,9 +1938,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2144,9 +1957,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2165,9 +1976,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2186,9 +1995,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2207,9 +2014,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2228,9 +2033,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2249,9 +2052,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2270,9 +2071,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2291,9 +2090,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2312,9 +2109,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2333,9 +2128,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2354,9 +2147,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2375,9 +2166,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2396,9 +2185,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2417,9 +2204,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2438,9 +2223,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2459,9 +2242,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2480,9 +2261,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2501,9 +2280,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2522,9 +2299,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2543,9 +2318,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2564,9 +2337,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2585,9 +2356,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2606,9 +2375,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2627,9 +2394,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2648,9 +2413,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2669,9 +2432,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2690,9 +2451,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2711,9 +2470,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2732,9 +2489,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2753,30 +2508,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
-      "site_fulltext": false,
-      "syndicate_fulltext": false,
-      "enabled": false
-    },
-    {
-      "id": "rss-chinese-085",
-      "name": "42章经",
-      "kind": "rss",
-      "config": {
-        "feedUrl": "https://wechat2rss.bestblogs.dev/feed/f6694726ced4ba3d7c7cd65c6edf2160c5978387.xml",
-        "_aihot": {
-          "initialBackfillLimit": 8
-        }
-      },
-      "tier": "T2",
-      "owner_entity_id": null,
-      "participation_mode": "editorial",
-      "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2795,9 +2527,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2816,9 +2546,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2837,9 +2565,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2858,9 +2584,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2879,9 +2603,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2900,9 +2622,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2921,9 +2641,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2942,9 +2660,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2963,9 +2679,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -2984,9 +2698,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3005,9 +2717,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3026,9 +2736,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3047,9 +2755,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3068,9 +2774,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3089,9 +2793,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3110,9 +2812,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3131,9 +2831,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3152,9 +2850,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3173,9 +2869,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3194,9 +2888,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3215,9 +2907,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3236,9 +2926,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3257,9 +2945,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3278,9 +2964,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3299,9 +2983,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3320,9 +3002,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3341,9 +3021,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3362,9 +3040,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3383,9 +3059,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3404,51 +3078,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 120,
-      "tags": [
-        "官方"
-      ],
-      "site_fulltext": false,
-      "syndicate_fulltext": false,
-      "enabled": false
-    },
-    {
-      "id": "rss-chinese-116",
-      "name": "钉钉",
-      "kind": "rss",
-      "config": {
-        "feedUrl": "https://wechat2rss.bestblogs.dev/feed/3291b88d0dc81c3c094752f756256c715d038a7b.xml",
-        "_aihot": {
-          "initialBackfillLimit": 8
-        }
-      },
-      "tier": "T2",
-      "owner_entity_id": null,
-      "participation_mode": "editorial",
-      "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
-      "site_fulltext": false,
-      "syndicate_fulltext": false,
-      "enabled": false
-    },
-    {
-      "id": "rss-chinese-117",
-      "name": "飞书",
-      "kind": "rss",
-      "config": {
-        "feedUrl": "https://wechat2rss.bestblogs.dev/feed/acae39126a4fe47d9c99714708d606f5c3ab0169.xml",
-        "_aihot": {
-          "initialBackfillLimit": 8
-        }
-      },
-      "tier": "T2",
-      "owner_entity_id": null,
-      "participation_mode": "editorial",
-      "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3467,9 +3097,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3488,9 +3116,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3509,9 +3135,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3530,9 +3154,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3551,9 +3173,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3572,9 +3192,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3593,9 +3211,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3614,9 +3230,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3635,9 +3249,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3656,9 +3268,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3677,9 +3287,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3698,9 +3306,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3719,9 +3325,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3740,9 +3344,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3761,9 +3363,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3782,9 +3382,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3803,9 +3401,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3824,9 +3420,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3845,9 +3439,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3866,9 +3458,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3887,9 +3477,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3908,9 +3496,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3929,9 +3515,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3950,9 +3534,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3971,9 +3553,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -3992,9 +3572,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4013,9 +3591,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4034,9 +3610,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4055,9 +3629,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4076,9 +3648,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4097,9 +3667,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4118,9 +3686,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4139,9 +3705,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4160,9 +3724,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4181,9 +3743,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4202,9 +3762,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4223,9 +3781,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4244,9 +3800,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4265,9 +3819,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4286,9 +3838,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4307,9 +3857,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4328,9 +3876,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4349,9 +3895,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4370,9 +3914,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4391,9 +3933,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4412,9 +3952,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4433,9 +3971,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4454,9 +3990,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "工程与工具"
-      ],
+      "tags": ["工程与工具"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4475,9 +4009,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4496,9 +4028,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4517,9 +4047,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4538,9 +4066,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4559,9 +4085,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "个人"
-      ],
+      "tags": ["个人"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4580,9 +4104,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4601,9 +4123,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4622,9 +4142,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "研究"
-      ],
+      "tags": ["研究"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4643,9 +4161,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4664,9 +4180,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4685,9 +4199,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4706,9 +4218,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4727,9 +4237,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4748,9 +4256,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4769,9 +4275,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4790,9 +4294,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4811,9 +4313,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "精选"
-      ],
+      "tags": ["精选"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4832,9 +4332,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4853,9 +4351,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4874,9 +4370,7 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "官方"
-      ],
+      "tags": ["官方"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "enabled": false
@@ -4895,12 +4389,10 @@
       "owner_entity_id": null,
       "participation_mode": "editorial",
       "interval_minutes": 180,
-      "tags": [
-        "行业动态"
-      ],
+      "tags": ["行业动态"],
       "site_fulltext": false,
       "syndicate_fulltext": false,
-      "enabled": false
+      "enabled": true
     }
   ]
 }
