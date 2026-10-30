@@ -3,5 +3,6 @@
 // pages' parts. Each list keeps the order its entries appear in on the site.
 import type { ModuleDeclaration } from "@aihot/contracts/modules";
 import models from "@aihot/models";
+import directory from "../../modules/directory/module.ts";
 
-export const MODULES: readonly ModuleDeclaration[] = [models];
+export const MODULES: readonly ModuleDeclaration[] = [models, directory];
